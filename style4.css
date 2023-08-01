@@ -1,3 +1,25 @@
+f
+
 body {
-    font-family:Garamond,sans-serif;
+    font-family:Georgia,sans-serif;
+    color: bisque;
+}
+header, footer {
+    text-align:center;
+    background-color:hotpink;
+}
+#Education, #Experience, #Skills, aside{
+    background-color: #578060;
+
+}
+img {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+}
+nav {
+    color: yellow;
+}
+body {
+    background-color:turquoise;
 }
