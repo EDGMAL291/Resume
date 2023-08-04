@@ -1,25 +1,26 @@
-f
-
 body {
-    font-family:Georgia,sans-serif;
-    color: bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    color:rgb(135, 115, 166);
+}
+
+a:hover {
+    background-color: #98EECC;
+}
+
+.heading {
+    background-color: #98EECC;
+}
+
+.sub-heading {
+    background-color: #D0F5BE;
+}
+
+.Content, ul, #Education, #Skills, #Experience, aside {
+    background-color: #FBFFDC;
 }
 header, footer {
-    text-align:center;
-    background-color:hotpink;
-}
-#Education, #Experience, #Skills, aside{
-    background-color: #578060;
-
-}
-img {
-    display: block;
-    margin: 0 auto;
-    background-color: black;
-}
-nav {
-    color: yellow;
-}
-body {
     background-color:turquoise;
+}
+nav a {
+    background-color:burlywood;
 }
