@@ -1,29 +1,30 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-    color:rgb(135, 115, 166);
 }
 
-a:hover {
-    background-color: #98EECC;
-}
-
-.heading {
-    background-color:black;
+.heading, a:hover {
+    background-color:lightcoral;
     color:whitesmoke ;
 }
 
 .sub-heading {
-    background-color:whitesmoke;
+    background-color:lightskyblue;
     color: black;
 }
-header, footer {
-    background-color:midnightblue;
+header {
+    background-color:crimson;
     color: whitesmoke;
 }
-nav a {
-    background-color:burlywood;
+nav a, li , footer, .Content{
+    background-color:antiquewhite;
+    color: black;
 }
-.Content{
-    background-color: black;
-    color: whitesmoke;
+article {
+    background-color:lavenderblush;
 }
+aside{
+    background-color: lavender;
+}
+
+
+
