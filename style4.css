@@ -8,19 +8,22 @@ a:hover {
 }
 
 .heading {
-    background-color: #98EECC;
+    background-color:black;
+    color:whitesmoke ;
 }
 
 .sub-heading {
-    background-color: #D0F5BE;
-}
-
-.Content, ul, #Education, #Skills, #Experience, aside {
-    background-color: #FBFFDC;
+    background-color:whitesmoke;
+    color: black;
 }
 header, footer {
-    background-color:turquoise;
+    background-color:midnightblue;
+    color: whitesmoke;
 }
 nav a {
     background-color:burlywood;
+}
+.Content{
+    background-color: black;
+    color: whitesmoke;
 }
