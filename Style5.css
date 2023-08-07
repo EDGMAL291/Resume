@@ -1,0 +1,30 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.heading, a:hover {
+    background-color:lightcoral;
+    color:whitesmoke ;
+}
+
+.sub-heading {
+    background-color:lightskyblue;
+    color: black;
+}
+header {
+    background-color:crimson;
+    color: whitesmoke;
+}
+nav a, li , footer, .Content{
+    background-color:antiquewhite;
+    color: black;
+}
+article {
+    background-color:lavenderblush;
+}
+aside{
+    background-color: lavender;
+}
+
+
+
