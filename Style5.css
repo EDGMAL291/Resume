@@ -1,19 +1,22 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .heading, a:hover {
     background-color:lightcoral;
     color:whitesmoke ;
+    padding: 1rem;
 }
 
 .sub-heading {
     background-color:lightskyblue;
     color: black;
+    padding: 1rem;
 }
 header {
-    background-color:crimson;
-    color: whitesmoke;
+    background-color: lightskyblue;
+    color:black;
+    padding: 1rem;
 }
 nav a, li , footer, .Content{
     background-color:antiquewhite;
@@ -24,7 +27,48 @@ article {
 }
 aside{
     background-color: lavender;
+    padding-top: 0%;
+}
+.Content, nav a{
+    padding: 1.5rem;
+    text-decoration: none;
 }
 
+#Education, #Experience, #Skills, #Contact{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+img {
+   border: solid lightsalmon;
+   border-radius: 10%;
+   padding: 0;
+   position: relative;
+   left: 40%;
+   margin: 2rem;
+}
+.menu{
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+nav a, div a{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: black;
+  padding: 1rem;
+}
 
-
+div a {
+    margin: 0 auto;
+}
+li{
+    padding: 1rem;
+}
+#Skills {
+    background-color: antiquewhite;
+}
+.Content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
