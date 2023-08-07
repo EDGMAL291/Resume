@@ -41,7 +41,7 @@ aside{
 }
 img {
    border: solid lightsalmon;
-   border-radius: 10%;
+   border-radius: 50%;
    padding: 0;
    position: relative;
    left: 39%;
@@ -73,6 +73,7 @@ li{
 .Content{
     margin-left: 1rem;
     margin-right: 1rem;
-}nav a {
+}
+.heading {
     text-align: center;
 }
