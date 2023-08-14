@@ -77,3 +77,54 @@ li{
 .heading {
     text-align: center;
 }
+form{
+    padding-top: 10px;
+    text-transform: uppercase;
+ 
+}
+textarea {
+    width: 500px;
+}
+.subject input[type="radio"] {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="email"]{
+    display: block;
+    width: 600px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: lavenderblush;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea{
+    display: block;
+    background-color: lavenderblush;
+    margin-top: 10px;
+    font-size: 20px;
+     width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:focus, textarea:focus{
+       border: solid lightcoral 2px;
+       outline: none;
+}
+.button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightskyblue;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover{
+    background-color: lightcoral;
+    color: whitesmoke ;
+    cursor: pointer;
+}
+fieldset{
+    width: 575px;
+}
+legend{
+    text-align: center;
+}
