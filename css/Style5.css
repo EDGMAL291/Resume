@@ -83,18 +83,14 @@ form{
  
 }
 textarea {
-    width: 500px;
+    width: 50%;;
 }
-.subject input[type="radio"] {
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-input[type="email"]{
+input[type="email"], #name, #lastname{
     display: block;
-    width: 600px;
-    height: 30px;
-    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+    margin: 10px 0px;
+    border: 1px solid;
     font-size: 20px;
     background-color: lavenderblush;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,7 +100,8 @@ textarea{
     background-color: lavenderblush;
     margin-top: 10px;
     font-size: 20px;
-     width: 600px;
+    width: 300px;
+    height: 200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input:focus, textarea:focus{
@@ -114,9 +111,10 @@ input:focus, textarea:focus{
 .button{
     padding: 10px;
     font-size: 20px;
-    background-color: lightskyblue;
+    background-color: lavenderblush;
     transition: background-color 0.3s, color 0.3s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
 }
 .button:hover{
     background-color: lightcoral;
@@ -124,8 +122,39 @@ input:focus, textarea:focus{
     cursor: pointer;
 }
 fieldset{
-    width: 575px;
+    width: 48%;
 }
 legend{
     text-align: center;
+}
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px;
+    background-color: lavenderblush;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px 2px 10px 3px;
+}
+
+.top-button:hover {
+    background-color: lightcoral;
+}
+#subject{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    width: 150px;
+    background-color: lavenderblush;
+    outline: none;
+    border: 1px solid lightcoral;
+    cursor: pointer;
+}
+.down{
+    display: block;
+    width: 50%;
 }

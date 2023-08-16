@@ -7,12 +7,16 @@
   </head>
 
   <body>
+    <a id="top"></a>
     <header>
       <h1>EDGAR DAVE MALESA</h1>
       <p>
         I'D BE SO APATHETIC IF I WASN'T SO LETHARGIC
+        <a href="#top" class="top-button">Top</a>
+
       </p>
-    </header>
+    </header id="goback">
+    <button href="#goback"></button>
     <aside>
         <div class="photo">
         <img
@@ -140,31 +144,24 @@
             DISCORD
           </a>
         </div>
-        <form action="https://formsubmit.co/edgardavemalesa@icloud.com " name="_subject" name="message" method="POST" target="_blank">
+        <form action="https://formsubmit.co/edgardavemalesa@icloud.com" method="POST" target="_blank">
           <fieldset >
           <legend>FEEDBACK</legend>
-          <br>
-          <label for="email">EMAIL ADDRESS:</label>
-          <input type="email" id="email" placeholder="valid email required" required>
-          <br>
-          <br>
-          <div class="subject">
-          <fieldset>
-            <legend>subject</legend>
-          <input type="radio" name="subject" value="education" id="education" required>
-          <label for="education">Education</label>
-          <br>
-          <input type="radio" name="subject" value="experience" id="experience" required>
-          <label for="experience">Experience</label>
-          <br>
-          <input type="radio" name="subject" value="qualification" id="qualification" required>
-          <label for="qualification">Qualification</label>
-          <br>
-          <input type="radio" name="subject" value="skills" id="skills" required>
-          <label for="skills">Skills</label>
-          </fieldset>
+          <div class="names">
+          <label for="name" >Name:</label>
+          <input type="text" id="name" placeholder="Name">
+          <label for="lastname">Surname:</label>
+          <input type="text" id="lastname" placeholder="Last name">
           </div>
-          <br>
+          <label for="email">EMAIL ADDRESS:</label>
+          <input type="email" id="email" placeholder="Valid email required" required>
+          <label for="subject">SUBJECT:</label>
+          <select name="_subject" id="subject">
+            <option value="Education">Education</option>
+            <option value="Experience">Experience</option>
+            <option value="Qualification">Qualification</option>
+            <option value="Skills">Skills</option>
+          </select>
           <label for="message">comment:</label>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="optional"></textarea>
           <br>
