@@ -7,23 +7,26 @@
   </head>
 
   <body>
-    <a id="top"></a>
-    <header>
-      <h1>EDGAR DAVE MALESA</h1>
-      <p>
-        I'D BE SO APATHETIC IF I WASN'T SO LETHARGIC
-      </p>
-    </header id="goback">
-    <button href="#goback"></button>
+    <div class="hero">
+      <header class="hero-text">
+        <h1>EDGAR DAVE MALESA</h1>
+        <p>I'D BE SO APATHETIC IF I WASN'T SO LETHARGIC</p>
+      </header>
+
+      <div>
+        <picture class="profile-picture">
+          <source media="(max-width: 600px)" srcset="Images/small.jpeg" />
+          <source media="(max-width: 800px)" srcset="Images/medium.jpg" />
+          <img
+            src="Images/Large.jpg"
+            height="300"
+            width="300"
+            alt="this is my handsome face"
+          />
+        </picture>
+      </div>
+    </div>
     <aside>
-        <div class="photo">
-        <img
-        src="Images/profile.jpeg"
-        height="230px"
-        width="250px"
-        alt="this is my handsome face"
-      />
-        </div>
       <nav>
         <a href="" class="menu">MENU</a>
         <a href="#Education">EDUCATION</a>
@@ -75,8 +78,8 @@
         <h3 class="sub-heading">JOB 1</h3>
 
         <p class="Content">
-          Medical Technologist at 2 Military Hospital (January 2019 - Present)
-          - Functioning in a critical role to deliver high-quality patient care,
+          Medical Technologist at 2 Military Hospital (January 2019 - Present) -
+          Functioning in a critical role to deliver high-quality patient care,
           by performing comprehensive clinical laboratory procedures within a
           military hospital setting. Demonstrated skills include proficiency in
           Haematology, adherence to stringent safety protocols and contribution
@@ -129,41 +132,65 @@
           <a
             href="https://www.linkedin.com/in/edgar-malesa-18aaa7268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bg4PASAPYSAG3L4wpBi0vNw%3D%3D"
             target="_blank"
-            >LINKEDIN</a>
-            <br>
+            >LINKEDIN</a
+          >
+          <br />
           <a
             href="https://www.instagram.com/tegridy_lightography/"
             target="_blank"
-            >INSTAGRAM</a>
-            <br>
+            >INSTAGRAM</a
+          >
+          <br />
           <a
             href="https://discord.com/channels/1101477277079982152/1115999082482249818"
-            target="_blank">
+            target="_blank"
+          >
             DISCORD
           </a>
         </div>
-        <form action="https://formsubmit.co/malesaedgar@gmail.com" method="POST" target="_blank">
-          <fieldset >
-          <legend>FEEDBACK</legend>
-          <div class="names">
-          <label for="name" >Name:</label>
-          <input type="text" id="name" placeholder="Name" name="name">
-          <label for="lastname">Surname:</label>
-          <input type="text" id="lastname" placeholder="Last name" name="lastname">
-          </div>
-          <label for="email">EMAIL ADDRESS:</label>
-          <input type="email" id="email" placeholder="Valid email required" required name="email">
-          <label for="subject">SUBJECT:</label>
-          <select name="_subject" id="subject">
-            <option value="Education">Education</option>
-            <option value="Experience">Experience</option>
-            <option value="Qualification">Qualification</option>
-            <option value="Skills">Skills</option>
-          </select>
-          <label for="message">comment:</label>
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="optional"></textarea>
-          <br>
-          <input type="submit" value="SEND FEEDBACK" class="button">
+        <form
+          action="https://formsubmit.co/malesaedgar@gmail.com"
+          method="POST"
+          target="_blank"
+        >
+          <fieldset>
+            <legend>FEEDBACK</legend>
+            <div class="names">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Name" name="name" />
+              <label for="lastname">Surname:</label>
+              <input
+                type="text"
+                id="lastname"
+                placeholder="Last name"
+                name="lastname"
+              />
+            </div>
+            <label for="email">EMAIL ADDRESS:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Valid email required"
+              required
+              name="email"
+            />
+            <label for="subject">SUBJECT:</label>
+            <select name="_subject" id="subject">
+              <option value="Education">Education</option>
+              <option value="Experience">Experience</option>
+              <option value="Qualification">Qualification</option>
+              <option value="Skills">Skills</option>
+            </select>
+            <label for="message">comment:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="optional"
+            ></textarea>
+            <br />
+            <input type="submit" value="SEND FEEDBACK" class="button" />
           </fieldset>
         </form>
       </section>
