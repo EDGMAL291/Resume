@@ -162,7 +162,7 @@ legend{
     width: 50%;
 }
 .hero{
-    background-image: ("Images/hero-image.jpg");
+    background-image: ("../Images/hero-image.jpg");
     background-size: cover;
     background-position: center center;
 }
