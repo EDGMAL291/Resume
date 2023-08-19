@@ -3,24 +3,20 @@ body {
 }
 
 .heading, a:hover {
-    background-color:lightcoral;
+    background-color:#e5a05b;
     color:whitesmoke ;
     padding: 1rem;
 }
 
 .sub-heading {
-    background-color:lightskyblue;
+    background-color:#88c4cc;
     color: black;
     padding: 1rem;
 }
 header {
-    background-image: url("Images/hero-image.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-color: lightskyblue;
     color:black;
-    padding: 1rem;
-    text-align: center;
+    margin-left: 39%;
+    color: whitesmoke;
 }
 nav a, li , footer, .Content{
     background-color:antiquewhite;
@@ -39,19 +35,18 @@ aside{
 }
 
 #Education, #Experience, #Skills, #Contact{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-img {
-   border: solid lightsalmon;
-   border-radius: 50%;
-   padding: 0;
-   position: relative;
-   left: 39%;
-   margin: 2rem;
+.profile-picture {
+    position: relative;
+    margin: 0 40%;
+}
+img{
+    border-radius: 40%;
 }
 .menu{
-    background-color: lightcoral;
+    background-color: #e5a05b;
     color: whitesmoke;
     text-align: center;
 }
@@ -161,8 +156,9 @@ legend{
     display: block;
     width: 50%;
 }
-.hero{
-    background-image: ("../Images/hero-image.jpg");
-    background-size: cover;
-    background-position: center center;
+#hero{
+    display:block;
+    background-image: url("../Images/realhero.jpg");
+    background-size: contain;
+    padding: 30px;
 }
