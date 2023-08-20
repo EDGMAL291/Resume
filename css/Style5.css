@@ -10,13 +10,16 @@ body {
 
 .sub-heading {
     background-color:#88c4cc;
-    color: black;
+    color: whitesmoke;
     padding: 1rem;
+    text-align: center;
+
 }
 header {
     color:black;
     margin-left: 39%;
     color: whitesmoke;
+    
 }
 nav a, li , footer, .Content{
     background-color:antiquewhite;
@@ -156,9 +159,87 @@ legend{
     display: block;
     width: 50%;
 }
+
 #hero{
     display:block;
     background-image: url("../Images/realhero.jpg");
-    background-size: contain;
+    background-size:cover;
+    background-repeat: no-repeat;
     padding: 30px;
+    width: auto;
+}
+/* mobile*/
+@media screen and (max-width: 768px){
+    div{
+        width: 100%;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        border-radius: 50%;
+        position: relative;
+        right: 2%;
+    }
+
+    header{
+        display: inline;
+        text-align: center;
+        margin: auto;
+}
+body{
+    font-size: 50%;
+}
+}
+
+/* tablet*/
+
+@media screen and (min-width: 769px) and (max-width: 1000px){
+    div{
+        width: 100%;
+    }
+        img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        right: 2%;
+        text-align: center;
+        border-radius: 40%;
+    }
+    #hero{
+       width: auto;
+       height: auto;
+}
+    header{
+        display: inline;
+        text-align: center;
+
+}
+body{
+    font-size: 75%;
+}
+}
+/* laptop*/
+@media screen and (min-width: 1001px){
+    div{
+        width: 100%;
+
+}
+    img{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 2rem;
+        text-align: center;
+        border-radius: 30%;
+    }
+    #hero{
+       width: auto;
+       height: auto;
+}
+    header{
+        display: inline;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
