@@ -187,9 +187,6 @@ legend{
         text-align: center;
         margin: auto;
 }
-body{
-    font-size: 50%;
-}
 }
 
 /* tablet*/
@@ -214,9 +211,6 @@ body{
         display: inline;
         text-align: center;
 
-}
-body{
-    font-size: 75%;
 }
 }
 /* laptop*/
